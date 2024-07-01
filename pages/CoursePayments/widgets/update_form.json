@@ -1,472 +1,584 @@
 {
-    "schema": {"__root_schema__": {
-        "labelTextSize": "0.875rem",
-        "identifier": "__root_schema__",
-        "boxShadow": "none",
-        "isRequired": false,
-        "isCustomField": false,
-        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-        "dataType": "object",
-        "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-        "accessor": "__root_schema__",
-        "isVisible": true,
-        "label": "",
-        "originalIdentifier": "__root_schema__",
-        "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-        "children": {
-            "UpdateDate": {
-                "boxShadow": "none",
-                "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.UpdateDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accessor": "UpdateDate",
-                "shortcuts": false,
-                "convertToISO": false,
-                "children": {},
-                "isDisabled": false,
-                "sourceData": "01-01-2024",
-                "labelTextSize": "0.875rem",
-                "identifier": "UpdateDate",
-                "isRequired": false,
-                "isCustomField": false,
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "isVisible": true,
-                "label": "Update Date",
-                "originalIdentifier": "UpdateDate",
-                "timePrecision": "minute",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "closeOnSelection": false,
-                "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 10,
-                "fieldType": "Datepicker"
-            },
-            "UpdatedBy": {
-                "labelTextSize": "0.875rem",
-                "identifier": "UpdatedBy",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.UpdatedBy))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "UpdatedBy",
-                "isVisible": true,
-                "label": "Updated By",
-                "originalIdentifier": "UpdatedBy",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 11,
-                "isDisabled": false,
-                "sourceData": "admin",
-                "fieldType": "Text Input"
-            },
-            "CreatedBy": {
-                "labelTextSize": "0.875rem",
-                "identifier": "CreatedBy",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CreatedBy))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "CreatedBy",
-                "isVisible": true,
-                "label": "Created By",
-                "originalIdentifier": "CreatedBy",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 9,
-                "isDisabled": false,
-                "sourceData": "admin",
-                "fieldType": "Text Input"
-            },
-            "PaymentDate": {
-                "boxShadow": "none",
-                "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.PaymentDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accessor": "PaymentDate",
-                "shortcuts": false,
-                "convertToISO": false,
-                "children": {},
-                "isDisabled": false,
-                "sourceData": "01-01-2024",
-                "labelTextSize": "0.875rem",
-                "identifier": "PaymentDate",
-                "isRequired": false,
-                "isCustomField": false,
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "isVisible": true,
-                "label": "Payment Date",
-                "originalIdentifier": "PaymentDate",
-                "timePrecision": "minute",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "closeOnSelection": false,
-                "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 3,
-                "fieldType": "Datepicker"
-            },
-            "EnrollmentID": {
-                "labelTextSize": "0.875rem",
-                "identifier": "EnrollmentID",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.EnrollmentID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
-                "accessor": "EnrollmentID",
-                "isVisible": true,
-                "label": "Enrollment ID",
-                "originalIdentifier": "EnrollmentID",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 9,
-                "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
-            },
-            "PriceAtPayment": {
-                "labelTextSize": "0.875rem",
-                "identifier": "PriceAtPayment",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PriceAtPayment))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
-                "accessor": "PriceAtPayment",
-                "isVisible": true,
-                "label": "Price At Payment",
-                "originalIdentifier": "PriceAtPayment",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 7,
-                "isDisabled": false,
-                "sourceData": 1100,
-                "fieldType": "Number Input"
-            },
-            "PaymentID": {
-                "labelTextSize": "0.875rem",
-                "identifier": "PaymentID",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
-                "accessor": "PaymentID",
-                "isVisible": true,
-                "label": "Payment ID",
-                "originalIdentifier": "PaymentID",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 0,
-                "isDisabled": false,
-                "sourceData": 2,
-                "fieldType": "Number Input"
-            },
-            "CoursePriceID": {
-                "labelTextSize": "0.875rem",
-                "identifier": "CoursePriceID",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CoursePriceID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "number",
-                "accessor": "CoursePriceID",
-                "isVisible": true,
-                "label": "Course Price ID",
-                "originalIdentifier": "CoursePriceID",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 10,
-                "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
-            },
-            "PaymentMethod": {
-                "labelTextSize": "0.875rem",
-                "identifier": "PaymentMethod",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentMethod))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "PaymentMethod",
-                "isVisible": true,
-                "label": "Payment Method",
-                "originalIdentifier": "PaymentMethod",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 5,
-                "isDisabled": false,
-                "sourceData": "Credit Card",
-                "fieldType": "Text Input"
-            },
-            "PaymentDescription": {
-                "labelTextSize": "0.875rem",
-                "identifier": "PaymentDescription",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentDescription))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "accessor": "PaymentDescription",
-                "isVisible": true,
-                "label": "Payment Description",
-                "originalIdentifier": "PaymentDescription",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 6,
-                "isDisabled": false,
-                "sourceData": "Initial Payment",
-                "fieldType": "Text Input"
-            },
-            "CreateDate": {
-                "boxShadow": "none",
-                "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "MM-DD-YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.CreateDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "accessor": "CreateDate",
-                "shortcuts": false,
-                "convertToISO": false,
-                "children": {},
-                "isDisabled": false,
-                "sourceData": "01-01-2024",
-                "labelTextSize": "0.875rem",
-                "identifier": "CreateDate",
-                "isRequired": false,
-                "isCustomField": false,
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
-                "isVisible": true,
-                "label": "Create Date",
-                "originalIdentifier": "CreateDate",
-                "timePrecision": "minute",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "closeOnSelection": false,
-                "maxDate": "2121-12-31T18:29:00.000Z",
-                "position": 8,
-                "fieldType": "Datepicker"
-            }
-        },
-        "position": -1,
-        "isDisabled": false,
-        "sourceData": {
-            "col4": "entry 5",
-            "col2": "is 2",
-            "col3": "new 3",
-            "col1": "This 12"
-        },
-        "cellBoxShadow": "none",
-        "fieldType": "Object"
-    }},
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "update_form",
-    "submitButtonStyles": {
-        "boxShadow": "none",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-        "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#2E3D4955",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 86,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
     },
-    "borderColor": "#2E3D4955",
-    "dynamicPropertyPathList": [
-        {"key": "schema.__root_schema__.children.date_of_birth.defaultValue"},
-        {"key": "schema.__root_schema__.children.col5.defaultValue"},
-        {"key": "isVisible"},
-        {"key": "borderRadius"},
-        {"key": "onSubmit"},
-        {"key": "schema.__root_schema__.children.PaymentDate.defaultValue"},
-        {"key": "schema.__root_schema__.children.CreateDate.defaultValue"},
-        {"key": "schema.__root_schema__.children.UpdateDate.defaultValue"}
-    ],
-    "displayName": "JSON Form",
-    "iconSVG": "/static/media/icon.6bacf7df.svg",
-    "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating row!\\n${error}`,'error'))}}",
-    "topRow": 0,
-    "bottomRow": 86,
-    "fieldLimitExceeded": false,
-    "parentRowSpace": 10,
-    "title": "Update Row Id: {{data_table.selectedRow.rowIndex}}",
-    "type": "JSON_FORM_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 16.3125,
-    "dynamicTriggerPathList": [{"key": "onSubmit"}],
-    "leftColumn": 40,
-    "dynamicBindingPathList": [
-        {"key": "schema.__root_schema__.defaultValue"},
-        {"key": "sourceData"},
-        {"key": "isVisible"},
-        {"key": "schema.__root_schema__.borderRadius"},
-        {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "title"},
-        {"key": "submitButtonStyles.buttonColor"},
-        {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
-        {"key": "resetButtonStyles.borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "borderRadius"},
-        {"key": "schema.__root_schema__.children.PaymentID.defaultValue"},
-        {"key": "schema.__root_schema__.children.PaymentID.borderRadius"},
-        {"key": "schema.__root_schema__.children.PaymentID.accentColor"},
-        {"key": "schema.__root_schema__.children.PaymentDate.defaultValue"},
-        {"key": "schema.__root_schema__.children.PaymentDate.borderRadius"},
-        {"key": "schema.__root_schema__.children.PaymentDate.accentColor"},
-        {"key": "schema.__root_schema__.children.PaymentMethod.defaultValue"},
-        {"key": "schema.__root_schema__.children.PaymentMethod.borderRadius"},
-        {"key": "schema.__root_schema__.children.PaymentMethod.accentColor"},
-        {"key": "schema.__root_schema__.children.PaymentDescription.defaultValue"},
-        {"key": "schema.__root_schema__.children.PaymentDescription.borderRadius"},
-        {"key": "schema.__root_schema__.children.PaymentDescription.accentColor"},
-        {"key": "schema.__root_schema__.children.PriceAtPayment.defaultValue"},
-        {"key": "schema.__root_schema__.children.PriceAtPayment.borderRadius"},
-        {"key": "schema.__root_schema__.children.PriceAtPayment.accentColor"},
-        {"key": "schema.__root_schema__.children.CreateDate.defaultValue"},
-        {"key": "schema.__root_schema__.children.CreateDate.borderRadius"},
-        {"key": "schema.__root_schema__.children.CreateDate.accentColor"},
-        {"key": "schema.__root_schema__.children.CreatedBy.defaultValue"},
-        {"key": "schema.__root_schema__.children.CreatedBy.borderRadius"},
-        {"key": "schema.__root_schema__.children.CreatedBy.accentColor"},
-        {"key": "schema.__root_schema__.children.UpdateDate.defaultValue"},
-        {"key": "schema.__root_schema__.children.UpdateDate.borderRadius"},
-        {"key": "schema.__root_schema__.children.UpdateDate.accentColor"},
-        {"key": "schema.__root_schema__.children.UpdatedBy.defaultValue"},
-        {"key": "schema.__root_schema__.children.UpdatedBy.borderRadius"},
-        {"key": "schema.__root_schema__.children.UpdatedBy.accentColor"},
-        {"key": "schema.__root_schema__.children.EnrollmentID.defaultValue"},
-        {"key": "schema.__root_schema__.children.EnrollmentID.borderRadius"},
-        {"key": "schema.__root_schema__.children.EnrollmentID.accentColor"},
-        {"key": "schema.__root_schema__.children.CoursePriceID.defaultValue"},
-        {"key": "schema.__root_schema__.children.CoursePriceID.borderRadius"},
-        {"key": "schema.__root_schema__.children.CoursePriceID.accentColor"}
-    ],
-    "borderWidth": "0",
-    "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"rowIndex\")}}",
-    "showReset": true,
-    "resetButtonLabel": "Reset",
-    "key": "h9l9ozr8op",
-    "labelTextSize": "0.875rem",
-    "backgroundColor": "#fff",
-    "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "autoGenerateForm": true,
-    "widgetId": "tn9ri7ylp2",
-    "resetButtonStyles": {
-        "boxShadow": "none",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-        "buttonVariant": "SECONDARY"
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
     },
-    "isVisible": "{{data_table.selectedRow!==undefined}}",
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "scrollContents": true,
-    "fixedFooter": true,
-    "submitButtonLabel": "Update",
-    "childStylesheet": {
-        "CHECKBOX": {
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "ARRAY": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "cellBoxShadow": "none"
-        },
-        "CURRENCY_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "DATEPICKER": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "PHONE_NUMBER_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "OBJECT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "cellBoxShadow": "none"
-        },
-        "MULTISELECT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "SELECT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "NUMBER_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "PASSWORD_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "EMAIL_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "RADIO_GROUP": {
-            "boxShadow": "none",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "SWITCH": {
-            "boxShadow": "none",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "TEXT_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        },
-        "MULTILINE_TEXT_INPUT": {
-            "boxShadow": "none",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
-        }
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
     },
-    "disabledWhenInvalid": true,
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "title"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentID.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentID.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentID.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDate.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDate.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDate.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentMethod.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentMethod.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentMethod.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDescription.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDescription.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDescription.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.PriceAtPayment.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.PriceAtPayment.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.PriceAtPayment.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreateDate.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreateDate.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreateDate.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreatedBy.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreatedBy.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreatedBy.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdateDate.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdateDate.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdateDate.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdatedBy.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdatedBy.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdatedBy.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.EnrollmentID.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.EnrollmentID.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.EnrollmentID.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.CoursePriceID.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.CoursePriceID.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.CoursePriceID.accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.col5.defaultValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.PaymentDate.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.CreateDate.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.UpdateDate.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": "{{data_table.selectedRow!==undefined}}",
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 40,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating row!\\n${error}`,'error'))}}",
+  "parentColumnSpace": 16.3125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "CoursePriceID": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "CoursePriceID",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CoursePriceID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "CoursePriceID",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Course Price ID",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "CoursePriceID",
+          "position": 10,
+          "sourceData": 1
+        },
+        "CreateDate": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "CreateDate",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "MM-DD-YYYY",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.CreateDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "CreateDate",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Create Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "CreateDate",
+          "position": 8,
+          "shortcuts": false,
+          "sourceData": "01-01-2024",
+          "timePrecision": "minute"
+        },
+        "CreatedBy": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "CreatedBy",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CreatedBy))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "CreatedBy",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Created By",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "CreatedBy",
+          "position": 9,
+          "sourceData": "admin"
+        },
+        "EnrollmentID": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "EnrollmentID",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.EnrollmentID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "EnrollmentID",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Enrollment ID",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "EnrollmentID",
+          "position": 9,
+          "sourceData": 1
+        },
+        "PaymentDate": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "PaymentDate",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "MM-DD-YYYY",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.PaymentDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "PaymentDate",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Payment Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "PaymentDate",
+          "position": 3,
+          "shortcuts": false,
+          "sourceData": "01-01-2024",
+          "timePrecision": "minute"
+        },
+        "PaymentDescription": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "PaymentDescription",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentDescription))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "PaymentDescription",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Payment Description",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "PaymentDescription",
+          "position": 6,
+          "sourceData": "Initial Payment"
+        },
+        "PaymentID": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "PaymentID",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "PaymentID",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Payment ID",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "PaymentID",
+          "position": 0,
+          "sourceData": 2
+        },
+        "PaymentMethod": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "PaymentMethod",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentMethod))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "PaymentMethod",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Payment Method",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "PaymentMethod",
+          "position": 5,
+          "sourceData": "Credit Card"
+        },
+        "PriceAtPayment": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "PriceAtPayment",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PriceAtPayment))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "PriceAtPayment",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Price At Payment",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "PriceAtPayment",
+          "position": 7,
+          "sourceData": 1100
+        },
+        "UpdateDate": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "UpdateDate",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "MM-DD-YYYY",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.UpdateDate, \"MM-DD-YYYY\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "UpdateDate",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Update Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "UpdateDate",
+          "position": 10,
+          "shortcuts": false,
+          "sourceData": "01-01-2024",
+          "timePrecision": "minute"
+        },
+        "UpdatedBy": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "UpdatedBy",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.UpdatedBy))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "UpdatedBy",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Updated By",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "UpdatedBy",
+          "position": 11,
+          "sourceData": "admin"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": "This 12",
+        "col2": "is 2",
+        "col3": "new 3",
+        "col4": "entry 5"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"rowIndex\")}}",
+  "submitButtonLabel": "Update",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Update Row Id: {{data_table.selectedRow.rowIndex}}",
+  "topRow": 0,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "tn9ri7ylp2",
+  "widgetName": "update_form"
 }
