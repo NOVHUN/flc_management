@@ -1,0 +1,412 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonkzfuboa42i.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonrrmos7aht2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton7wt6s2v484.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonjcx65wx6hl.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtona7y4b7bxa4.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtons9qj649hdf.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonvkkharax4d.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButtona7y4b7bxa4.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonjcx65wx6hl.menuItems.menuItemcind44nkpa.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtons9qj649hdf.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonvkkharax4d.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonrrmos7aht2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton7wt6s2v484.menuItems.menuItemg2b54fb8s0.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonkzfuboa42i.menuItems.menuItem018oby1vvf.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButtona7y4b7bxa4.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonjcx65wx6hl.menuItems.menuItemcind44nkpa.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtons9qj649hdf.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonvkkharax4d.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonrrmos7aht2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton7wt6s2v484.menuItems.menuItemg2b54fb8s0.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonkzfuboa42i.menuItems.menuItem018oby1vvf.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "people",
+      "id": "groupButton1",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Students Profile",
+      "menuItems": {},
+      "onClick": "navigateTo('Students Profile', { openInNewTab: false });",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "add-to-artifact",
+      "id": "groupButton2",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Enrollments",
+      "menuItems": {},
+      "onClick": "navigateTo('Enrollments', { openInNewTab: false });",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "folder-new",
+      "id": "groupButton3",
+      "index": 4,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Courses",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List Courses",
+          "onClick": "navigateTo('Courses Management', { openInNewTab: false });",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List Subject",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItemotolv6esth": {
+          "id": "menuItemotolv6esth",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List Level",
+          "widgetId": "1buulmho8o"
+        }
+      },
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton7wt6s2v484": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "projects",
+      "id": "groupButton7wt6s2v484",
+      "index": 9,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Project",
+      "menuItems": {
+        "menuItem44nikh72a5": {
+          "iconName": "list-detail-view",
+          "id": "menuItem44nikh72a5",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Project List",
+          "widgetId": "od4nf2666m"
+        },
+        "menuItemdcr9647ia6": {
+          "id": "menuItemdcr9647ia6",
+          "index": 4,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Communication Log",
+          "widgetId": "isijf80u1j"
+        },
+        "menuItemg2b54fb8s0": {
+          "iconName": "people",
+          "id": "menuItemg2b54fb8s0",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Students in Project",
+          "onClick": "navigateTo('Project Management', { openInNewTab: false });",
+          "widgetId": "lx7oce5ft5"
+        },
+        "menuItemochjiz4qwg": {
+          "id": "menuItemochjiz4qwg",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "MOU Tracking",
+          "widgetId": "eli57adky8"
+        },
+        "menuItempp8k07bdij": {
+          "id": "menuItempp8k07bdij",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Partner List",
+          "widgetId": "62fu79attj"
+        }
+      },
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "k7hclfiwt2"
+    },
+    "groupButtona7y4b7bxa4": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "dashboard",
+      "id": "groupButtona7y4b7bxa4",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Dashboard",
+      "menuItems": {},
+      "onClick": "navigateTo('Dashboard', { openInNewTab: false });",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "8587e2flhk"
+    },
+    "groupButtonjcx65wx6hl": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "calculator",
+      "id": "groupButtonjcx65wx6hl",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Payments",
+      "menuItems": {
+        "menuItem8gpmvde6y0": {
+          "id": "menuItem8gpmvde6y0",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Discount List",
+          "widgetId": "dz7k575vaj"
+        },
+        "menuItemcind44nkpa": {
+          "id": "menuItemcind44nkpa",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List all Paid",
+          "onClick": "navigateTo('Payments', { openInNewTab: false });",
+          "widgetId": "1df8dh2yzh"
+        },
+        "menuItemiigz10lxix": {
+          "id": "menuItemiigz10lxix",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List student not paid",
+          "widgetId": "x9epqup2zv"
+        }
+      },
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "2lohw05an6"
+    },
+    "groupButtonkzfuboa42i": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "MENU",
+      "iconName": "timeline-events",
+      "id": "groupButtonkzfuboa42i",
+      "index": 7,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Schedules",
+      "menuItems": {
+        "menuItem018oby1vvf": {
+          "iconName": "list",
+          "id": "menuItem018oby1vvf",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "List Schedules",
+          "onClick": "navigateTo('Schedules Management', { openInNewTab: false });",
+          "widgetId": "m9gg13urm2"
+        },
+        "menuItem3d1jckfw4l": {
+          "iconName": "home",
+          "id": "menuItem3d1jckfw4l",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Rooms List",
+          "widgetId": "kp0nmrb69r"
+        }
+      },
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "tx50p5zay7"
+    },
+    "groupButtonrrmos7aht2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "inherited-group",
+      "id": "groupButtonrrmos7aht2",
+      "index": 8,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Staff",
+      "menuItems": {},
+      "onClick": "navigateTo('Staff Management', { openInNewTab: false });",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "5ewgoluqbs"
+    },
+    "groupButtons9qj649hdf": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "book",
+      "id": "groupButtons9qj649hdf",
+      "index": 5,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Score",
+      "menuItems": {},
+      "onClick": "navigateTo('Score Management', { openInNewTab: false });",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "j7954kn8fv"
+    },
+    "groupButtonvkkharax4d": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "time",
+      "id": "groupButtonvkkharax4d",
+      "index": 6,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Attendece",
+      "menuItems": {},
+      "onClick": "navigateTo('Attendence Management', { openInNewTab: false });",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "es5t05fab3"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rfdfuk0g65",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "parentColumnSpace": 15.765625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "1zlnrghyu4",
+  "widgetName": "MenuBar"
+}

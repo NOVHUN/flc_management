@@ -16,19 +16,43 @@
   "icon": "book",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Dashboard",
       "isDefault": true
     },
     {
-      "id": "CoursePayments",
+      "id": "Students Profile",
       "isDefault": false
     },
     {
-      "id": "Students",
+      "id": "Enrollments",
       "isDefault": false
     },
     {
-      "id": "Enrollment List",
+      "id": "Payments",
+      "isDefault": false
+    },
+    {
+      "id": "Courses Management",
+      "isDefault": false
+    },
+    {
+      "id": "Score Management",
+      "isDefault": false
+    },
+    {
+      "id": "Attendence Management",
+      "isDefault": false
+    },
+    {
+      "id": "Schedules Management",
+      "isDefault": false
+    },
+    {
+      "id": "Staff Management",
+      "isDefault": false
+    },
+    {
+      "id": "Project Management",
       "isDefault": false
     }
   ],

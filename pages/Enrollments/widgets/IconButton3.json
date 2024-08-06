@@ -1,0 +1,66 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "plus",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e5045469a82b76384d0c537fc9545012.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "157e532ipl",
+  "leftColumn": 61,
+  "minWidth": 50,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 45,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{showModal(ModalEnroll.name);}}",
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
+  "parentColumnSpace": 16.984375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 23,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "dgfolhlemz",
+  "widgetName": "IconButton3"
+}
