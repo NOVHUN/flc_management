@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "plus",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2e7u0t18ql",
+  "leftColumn": 11,
+  "minWidth": 50,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(ModalAddStudent.name);}}",
+  "parentColumnSpace": 15.21875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 15,
+  "topRow": 11,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zfxkl14qq6",
+  "widgetName": "IconButtonAdd"
+}

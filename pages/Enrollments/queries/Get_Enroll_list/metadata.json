@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "665d96f8d068f0332b12ca48_b39f78e3-d39e-4654-9565-7565783f6402",
-  "id": "Enrollments_Join_Enrollment",
+  "gitSyncId": "665d96f8d068f0332b12ca48_2cff90db-d081-477d-bfe2-27a3cc8f0b10",
+  "id": "Enrollments_Get_Enroll_list",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "Join_Enrollment"
+          "data": "Enrollment"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1Azn0ovQxadTxwQ3fStAUwl3dw-Ge3tG0VUxDbzTTJkM/edit"
@@ -70,8 +70,8 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "Join_Enrollment",
+    "executeOnLoad": true,
+    "name": "Get_Enroll_list",
     "pageId": "Enrollments",
     "userSetOnLoad": false
   }
